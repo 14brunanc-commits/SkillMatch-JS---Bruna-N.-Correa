@@ -1,8 +1,9 @@
+const Vaga = require("./Vaga");
 class VagaFrontEnd extends Vaga
 
  {
-    constructor(titulo, area, habilidadesRequeridas, experienciaMinimaMeses, requerExperienciaFigma) {
-        super(titulo, area, habilidadesRequeridas, experienciaMinimaMeses);
+    constructor(id, empresa, cargo, requisitos, salario, modalidade, requerExperienciaFigma) {
+        super(id, empresa, cargo, requisitos, salario, modalidade);
         this.requerExperienciaFigma = requerExperienciaFigma;
     }
     
