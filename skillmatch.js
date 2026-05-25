@@ -88,6 +88,11 @@ function encontrarVagaComMaiorCompatibilidade(candidato, vagas) {
     return vagaComMaiorCompatibilidade
 }
 
+const exibirMensagemFinal = (nome) =>  {
+  console.log(`${nome}, revise suas habilidades faltantes e atualize seu plano de estudos.`);
+}
+
+
 function gerarRecomendacaoEstudo(candidato, vaga) {
     let todasHabilidadesFaltantes = []
     for (const vaga of vagas) {
@@ -181,8 +186,3 @@ function criarContadorDeAnalises() {
     console.log("Análise finalizada.");
     callback(nomeCandidato);
 }
-
-function exibirMensagemFinal(nome) {
-  console.log(`${nome}, revise suas habilidades faltantes e atualize seu plano de estudos.`);
-}
-
