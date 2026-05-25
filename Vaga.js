@@ -11,3 +11,4 @@ class Vaga {
         return `${this.cargo} na empresa ${this.empresa}`;
     }
 }
+module.exports = Vaga;
