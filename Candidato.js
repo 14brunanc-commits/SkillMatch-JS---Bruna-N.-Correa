@@ -6,3 +6,4 @@ class Candidato {
         this.experienciaMeses = experienciaMeses;
     }
 }
+module.exports = Candidato;

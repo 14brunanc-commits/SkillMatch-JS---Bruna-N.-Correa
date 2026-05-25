@@ -13,3 +13,4 @@ class VagaFrontEnd extends Vaga
         return "Não é necessária experiência em Figma.";
     }
 }
+module.exports = VagaFrontEnd;
