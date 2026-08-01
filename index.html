@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkillMatch | Encontre vagas compatíveis com suas habilidades</title>
+
+    <meta name="description" content="SkillMatch é uma aplicação que analisa suas habilidades e encontra vagas de Front-End compatíveis com seu perfil.">
+
+    <link rel="stylesheet" href="./assets/styles/index.style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <img 
+        src="./assets/img/logo.svg" 
+        alt="Logo do SkillMatch"
+        width="120"
+    >
+
+    <h1>SkillMatch</h1>
+
+    <p>
+        Descubra quais vagas combinam com suas habilidades em tecnologia.
+    </p>
+
+
+    <nav aria-label="Navegação principal">
+
+        <ul>
+
+            <li>
+                <a href="#perfil">Meu perfil</a>
+            </li>
+
+            <li>
+                <a href="#resultados">Resultados</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+</header>
+
+
+
+
+<main>
+
+
+<section id="perfil">
+
+
+<h2>Preencha seu perfil profissional</h2>
+
+
+<form id="form-candidato">
+
+
+    <div>
+
+        <label for="nome">
+            Nome:
+        </label>
+
+        <input 
+            type="text"
+            id="nome"
+            name="nome"
+            required
+            aria-required="true"
+        >
+
+    </div>
+
+
+
+    <div>
+
+        <label for="area">
+            Área de interesse:
+        </label>
+
+        <input 
+            type="text"
+            id="area"
+            name="area"
+            required
+            aria-required="true"
+        >
+
+    </div>
+
+
+
+
+    <div>
+
+        <label for="tempodeexperiencia">
+            Tempo de experiência (meses):
+        </label>
+
+        <input 
+            type="number"
+            id="tempodeexperiencia"
+            name="tempodeexperiencia"
+            min="0"
+        >
+
+    </div>
+
+
+
+
+
+    <div>
+
+        <label for="habilidade">
+            Habilidades:
+        </label>
+
+
+        <input 
+            type="text"
+            id="habilidade"
+            name="habilidade"
+            placeholder="Ex: JavaScript, HTML, GitHub"
+            required
+        >
+
+        <small>
+            Separe as habilidades utilizando vírgulas.
+        </small>
+
+
+    </div>
+
+
+
+
+    <button type="submit">
+
+        Analisar compatibilidade
+
+    </button>
+
+
+
+</form>
+
+
+
+<p 
+id="mensagem-erro"
+aria-live="polite">
+</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section id="resultados">
+
+
+<h2>
+Resultados das vagas
+</h2>
+
+
+
+<div 
+id="loading"
+aria-live="polite">
+</div>
+
+
+
+<div 
+id="cards-vagas">
+
+
+<!--
+O JavaScript irá criar os cards aqui
+-->
+
+</div>
+
+
+
+
+
+
+<section id="melhor-vaga">
+
+
+<h2>
+⭐ Melhor vaga encontrada
+</h2>
+
+
+<div id="vaga-destaque">
+
+<!-- Criado pelo JavaScript -->
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section id="recomendacoes">
+
+
+<h2>
+📚 Recomendações de estudo
+</h2>
+
+
+<div id="recomendacao-estudo">
+
+<!-- Criado pelo JavaScript -->
+
+</div>
+
+
+
+</section>
+
+
+
+</section>
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+<footer>
+
+
+<p>
+Projeto SkillMatch.js - Front-End T2
+</p>
+
+
+</footer>
+
+
+
+
+
+<script 
+type="module"
+src="./assets/scripts/main.js">
+</script>
+
+
+
+</body>
+
+
+</html>
