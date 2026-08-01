@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "empresa": "TechStart",
+        "cargo": "Desenvolvedor Front-End Júnior",
+        "requisitos": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "GitHub",
+            "Lógica de Programação"
+        ],
+        "salario": 3500,
+        "modalidade": "Remoto"
+    },
+
+
+    {
+        "id": 2,
+        "empresa": "CodeLab",
+        "cargo": "Estagiário Front-End",
+        "requisitos": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "Kanban"
+        ],
+        "salario": 1800,
+        "modalidade": "Híbrido"
+    },
+
+
+    {
+        "id": 3,
+        "empresa": "InovaTech",
+        "cargo": "Desenvolvedor Front-End Pleno",
+        "requisitos": [
+            "JavaScript",
+            "React",
+            "GitHub",
+            "API REST",
+            "CSS Responsivo"
+        ],
+        "salario": 6000,
+        "modalidade": "Remoto"
+    },
+
+
+    {
+        "id": 4,
+        "empresa": "Digital Solutions",
+        "cargo": "Desenvolvedor Front-End Júnior",
+        "requisitos": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "Responsividade"
+        ],
+        "salario": 4000,
+        "modalidade": "Presencial"
+    }
+
+]
