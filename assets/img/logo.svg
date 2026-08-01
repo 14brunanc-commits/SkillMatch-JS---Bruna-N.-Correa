@@ -1,0 +1,48 @@
+<svg 
+    width="120" 
+    height="120" 
+    viewBox="0 0 120 120" 
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="tituloLogo descricaoLogo"
+>
+
+
+    <title id="tituloLogo">
+        Logo SkillMatch
+    </title>
+
+
+    <desc id="descricaoLogo">
+        Ícone representando conexão entre candidatos e oportunidades de trabalho
+    </desc>
+
+
+
+    <!-- Círculo principal -->
+
+    <circle
+        cx="60"
+        cy="60"
+        r="50"
+        fill="#2563eb"
+    />
+
+
+
+    <!-- Símbolo de conexão -->
+
+    <path
+        d="M35 60
+           L52 75
+           L85 42"
+        fill="none"
+        stroke="white"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+
+
+
+</svg>
